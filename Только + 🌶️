@@ -1,0 +1,37 @@
+'''
+Напишите программу, которая считывает три числа и подсчитывает сумму только положительных чисел.
+
+Формат входных данных
+На вход программе подаются три целых числа.
+
+Формат выходных данных
+Программа должна вывести одно число – сумму положительных чисел.
+
+Примечание. Если положительных чисел нет, то следует вывести 0.
+'''
+
+a = int(input()); b = int(input()); c = int(input())
+
+if a > 0 and b > 0 and c > 0:
+    print(abs(a) + abs(b) + abs(c))
+    
+if a > 0 and b > 0 and c < 0:
+    print(abs(a) + abs(b))
+
+if a > 0 and c > 0 and b < 0:
+    print(abs(a) + abs(c))
+
+if b > 0 and c > 0 and a < 0:
+    print(abs(b) + abs(c))
+
+if a > 0 and b < 0 and c < 0:
+    print(abs(a))
+
+if a < 0 and b > 0 and c < 0:
+    print(abs(b))
+
+if a < 0 and b < 0 and c > 0:
+    print(abs(c))
+
+if a < 0 and b < 0 and c < 0:
+    print(0)
