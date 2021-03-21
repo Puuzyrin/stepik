@@ -1,0 +1,12 @@
+'''
+Напишите программу, вычисляющую значение тригонометрического выражения
+'''
+
+
+from math import *
+
+x = float(input())
+e = radians(x)
+a = sin(e) + cos(e) + tan(e)**2 
+
+print(a)
