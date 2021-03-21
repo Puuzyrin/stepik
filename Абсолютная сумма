@@ -1,0 +1,6 @@
+'''
+Даны пять чисел a1, a2, a3, a4, a5. Напишите программу, которая вычисляет сумму их модулей.
+'''
+
+
+print(abs(float(input())) + abs(float(input())) + abs(float(input())) + abs(float(input())) + abs(float(input())))
